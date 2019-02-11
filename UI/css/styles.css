@@ -91,11 +91,10 @@ body {
 .menu-row {
     display: flex;
     align-content: space-around;
-    padding: 5px;
-}
-.main {
     padding: 4%;
+    
 }
+
 .main .button-wrapper {
     text-align: center;
 }
