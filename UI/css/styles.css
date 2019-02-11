@@ -93,7 +93,9 @@ body {
     align-content: space-around;
     padding: 5px;
 }
-
+.main {
+    padding: 4%;
+}
 .main .button-wrapper {
     text-align: center;
 }
@@ -191,7 +193,7 @@ form p {
 }
 
 input[type="text"],input[type="password"],
-input[type="email"] {
+input[type="image"] {
     width: 80%;
     padding: 2%;
     margin: 3% 0;
@@ -218,25 +220,18 @@ input[type="email"] {
 .show {
     display: block;
 }
+
 .delete-icon {
     position: absolute;
-    top: 22px;
-    right: 44px;
-    color: #EB211E;
-    margin-right: 10px;
-}
-
-.view-icon {
-    position: absolute;
     right: 10px;
-    color: #61D8ED;
+    color: #EB211E;
     margin-right: 10px;
 }
 
 .edit-icon {
     position: absolute;
     left: 10px;
-    color: black;
+    color: #212D40;
     margin-left: 10px;
 }
 
@@ -246,6 +241,19 @@ input[type="email"] {
     position: absolute;
     top: 3;
     height: 156px;
+}
+
+#add-trigger {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 85vh;
+    right: 1%; 
+}
+
+#add-trigger img {
+    width: 80px;
+    height: 80px; 
 }
 
 footer {
@@ -276,10 +284,21 @@ footer p {
     line-height: 20px;
 }
 
+.contact .news-form {
+    display: flex;
+    justify-content: space-between;
+}
 .contact button {
     border: 1px solid #E48F28;
     background-color: transparent;
     color: #E48F28;
+    margin-left: 10px;
+}
+
+.social-media img{
+    margin-top: 5px;
+    margin-left: 15px;
+    
 }
 
 .contact button:hover {
